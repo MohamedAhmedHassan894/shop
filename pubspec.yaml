@@ -1,0 +1,30 @@
+name: shop
+description: "A Flutter app provides insights into e-commerce orders by parsing a local JSON file (orders.json) and displaying the data across two screens. The app is designed to be user-friendly and visually appealing."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  syncfusion_flutter_charts: ^27.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/orders.json
+
