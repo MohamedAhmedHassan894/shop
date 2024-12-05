@@ -3,25 +3,26 @@
 This is a simple Flutter application to display insights from a list of orders stored in a local JSON file.
 How to Run the Project
 
-    Clone the Repository:
+## Clone the Repository:
 
-git clone https://github.com/your-github-account/flapkap-orders-insights.git
-cd flapkap-orders-insights
+    git clone https://github.com/your-github-account/flapkap-orders-insights.git
+   
+    cd shop
 
-Ensure FVM is Installed:
+## Ensure FVM is Installed:
 
-    The project uses Flutter Version Management (FVM).
-    Install FVM:
+The project uses Flutter Version Management (FVM).
+Install FVM:
 
-dart pub global activate fvm
+   dart pub global activate fvm
 
 Set Flutter version to 3.24.2:
 
     fvm use 3.24.2
 
-Install Dependencies:
+## Install Dependencies:
 
-fvm flutter pub get
+    fvm flutter pub get
 
 Place the orders.json File:
 
